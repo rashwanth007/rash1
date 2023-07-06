@@ -30,7 +30,22 @@ jobs:
       - name: STS GetCallerIdentity
         run: |
           aws sts get-caller-identity
-      # Create S3 bucket
-      - name: Create S3 bucket
+      # Create S3 buckets
+      - name: Create S3 bucket 1
         run: |
-          aws s3api create-bucket --bucket bucketjfdoejej --region us-east-1
+          aws s3api create-bucket --bucket bucket1 --region us-east-1
+      - name: Create S3 bucket 2
+        run: |
+          aws s3api create-bucket --bucket bucket2 --region us-east-1
+      - name: Create S3 bucket 3
+        run: |
+          aws s3api create-bucket --bucket bucket3 --region us-east-1
+      - name: Create S3 bucket 4
+        run: |
+          aws s3api create-bucket --bucket bucket4 --region us-east-1
+      - name: Create S3 bucket 5
+        run: |
+          aws s3api create-bucket --bucket bucket5 --region us-east-1
+      - name: Create S3 bucket 6
+        run: |
+          aws s3api create-bucket --bucket bucket6 --region us-east-1
