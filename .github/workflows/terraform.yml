@@ -33,19 +33,19 @@ jobs:
       # Create S3 buckets
       - name: Create S3 bucket 1
         run: |
-          aws s3api create-bucket --bucket bucket1369--region us-east-1
+          aws s3api create-bucket --bucket bucket1234--region us-east-1
       - name: Create S3 bucket 2
         run: |
-          aws s3api create-bucket --bucket bucket2737r --region us-east-1
+          aws s3api create-bucket --bucket bucket5678 --region us-east-1
       - name: Create S3 bucket 3
         run: |
-          aws s3api create-bucket --bucket bucket3kr32 --region us-east-1
+          aws s3api create-bucket --bucket bucket1a1b --region us-east-1
       - name: Create S3 bucket 4
         run: |
-          aws s3api create-bucket --bucket bucket437964 --region us-east-1
+          aws s3api create-bucket --bucket bucket2a2b --region us-east-1
       - name: Create S3 bucket 5
         run: |
-          aws s3api create-bucket --bucket bucket57375h --region us-east-1
+          aws s3api create-bucket --bucket bucket3a3b --region us-east-1
       - name: Create S3 bucket 6
         run: |
-          aws s3api create-bucket --bucket bucket6wsuj63 --region us-east-1
+          aws s3api create-bucket --bucket bucket4a4b --region us-east-1
