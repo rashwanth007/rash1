@@ -33,10 +33,10 @@ jobs:
       # Create S3 buckets
       - name: Create S3 bucket 1
         run: |
-          aws s3api create-bucket --bucket bucket1234--region us-east-1
+          aws s3api create-bucket --bucket bucket1z34--region us-east-1
       - name: Create S3 bucket 2
         run: |
-          aws s3api create-bucket --bucket bucket5678 --region us-east-1
+          aws s3api create-bucket --bucket bucket5y78 --region us-east-1
       - name: Create S3 bucket 3
         run: |
           aws s3api create-bucket --bucket bucket1a1b --region us-east-1
